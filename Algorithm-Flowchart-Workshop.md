@@ -397,6 +397,30 @@ Write the algorithm and draw the flowchart for a program that inputs the
 number of items purchased, calculates the total purchase amount using a
 loop, and applies a **15% discount** if the total exceeds 5000 SEK.
 
+###  Pseudocode
+
+```text
+START
+    INPUT items
+    SET total = 0
+    SET i = 1
+    WHILE i < = items
+       INPUT cost
+       SET total = total + cost
+       SET i = i + 1
+    ENDWHILE
+
+       IF total > 5000
+          SET discount = total * 0.15
+          SET total = total - discount
+        ENDIF
+    
+    OUTPUT total
+END
+```
+###  Flowchart
+![Flowchart](flowchart14.drawio.svg)
+
 ---
 
 ## 16. Electricity Bill Calculator
