@@ -141,7 +141,7 @@ START
     INPUT Principal
     INPUT InterestRate
     INPUT Time
-    set SimpleInterest=(Principal*InterestRate*Time )/100                                     
+    SET SimpleInterest=(Principal*InterestRate*Time )/100                                     
     OUTPUT SimpleInterest
 END
 ```   
@@ -162,9 +162,9 @@ START
     set total = 0
     For i FROM 1 to 7
     INPUT Temperature
-    set total = total + Temperature
+    SET total = total + Temperature
     End For
-    set average = total / 7
+    SET average = total / 7
     OUTPUT average
 END
 ```   
@@ -177,6 +177,20 @@ END
 
 Create an algorithm and flowchart to input length and width, calculate
 the area (**Area = Length × Width**), and display the result.
+
+###  Pseudocode
+
+```text
+START
+    INPUT length
+    INPUT width
+    SET area = length * width
+    OUTPUT area
+END
+```   
+
+###  Flowchart
+![Flowchart](flowchart6.drawio.svg)
 
 ---
 
