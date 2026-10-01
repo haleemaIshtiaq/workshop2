@@ -369,6 +369,26 @@ up to 3 attempts to enter the correct password. Display **"Access
 Granted"** if the password is correct; otherwise display **"Account
 Locked"** after 3 failed attempts.
 
+###  Pseudocode
+
+```text
+START
+    SET correctPassword = abc123
+    SET attempts = 1
+    WHILE attempts < = 3
+       INPUT password
+       IF password = correctPassword
+          OUTPUT Access Granted
+          STOP
+       ELSE 
+          SET attempts = attempts + 1
+       ENDIF
+    ENDWHILE 
+    OUTPUT Account Locked
+END
+```
+###  Flowchart
+![Flowchart](flowchart13.drawio.svg)
 ---
 
 ## 15. Store Checkout with Multiple Items
