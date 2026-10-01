@@ -306,6 +306,30 @@ employee's monthly salary and years of service, calculates a bonus of
 **10%** for employees with 5 or more years of service and **5%** for
 others, then displays the bonus and total salary.
 
+###  Pseudocode
+
+```text
+START
+    INPUT salary
+    INPUT years
+    IF salary < 0 OR years < 0
+       OUTPUT Invalid Input
+    ELSE
+        IF years > = 5
+          SET bonus = salary * 0.10
+        ELSE   
+          SET bonus = salary * 0.05
+        END IF
+      SET totalSalary = salary + bonus
+      OUTPUT bonus
+      OUTPUT totalSalary
+    END if
+
+    END
+```
+###  Flowchart
+![Flowchart](flowchart11.drawio.svg)
+
 ---
 
 ## 13. Mobile Data Usage Monitor
