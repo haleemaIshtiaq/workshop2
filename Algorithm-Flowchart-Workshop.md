@@ -83,6 +83,20 @@ END
 Create an algorithm and flowchart that input a number and display its
 multiplication table from 1 to 10 using a loop.
 
+###  Pseudocode
+
+```text
+START
+    INPUT number
+    FOR i FROM 1 to 10
+        SET result = number * i
+        OUTPUT result
+    ENDFOR  
+END
+```     
+
+###  Flowchart
+![Flowchart](flowchart2.drawio.svg)
 ---
 
 ## 4. Positive, Negative, or Zero Check
@@ -90,6 +104,23 @@ multiplication table from 1 to 10 using a loop.
 Write the algorithm and flowchart to input a number and display whether
 it is positive, negative, or zero.
 
+###  Pseudocode
+
+```text
+START
+    INPUT number
+    IF number == 0 THEN
+        OUTPUT zero
+    ELSE IF number > 0 THEN
+        OUTPUT positive    
+    ELSE
+        OUTPUT negative
+    ENDIF
+     
+END
+```     
+###  Flowchart
+![Flowchart](flowchart3.drawio.svg)
 ---
 
 ## 5. Simple Interest Calculator
