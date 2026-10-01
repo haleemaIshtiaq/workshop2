@@ -279,6 +279,24 @@ customer's purchase amount and displays **"Free Delivery"** if the
 amount is 500 SEK or more; otherwise display **"Delivery Charge
 Applies"**.
 
+###  Pseudocode
+
+```text
+START
+    INPUT Purchase
+    IF Purchase >=500
+       OUTPUT Free Delivery
+    ELSE   
+       OUTPUT Delivery Charge Applies
+    END IF
+
+    END
+```
+###  Flowchart
+![Flowchart](flowchart10.drawio.svg)
+
+
+
 ---
 
 ## 12. Employee Salary and Bonus Calculator
