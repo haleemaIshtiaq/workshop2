@@ -338,6 +338,28 @@ Write the algorithm and draw the flowchart for a program that inputs a
 user's monthly data limit and data usage, then displays whether the user
 has exceeded the limit or how much data remains.
 
+###  Pseudocode
+
+```text
+START
+    INPUT dataLimit
+    INPUT dataUsage
+    IF dataLimit < 0 OR dataUsage < 0
+       OUTPUT Invalid input
+    ELSE
+       IF dataUsage > dataLimit
+          OUTPUT Data limit exceeded
+       ELSE   
+          SET dataRemaining = dataLimit - dataUsage
+          OUTPUT dataRemaining
+       ENDIF
+    ENDIF   
+
+    END
+```
+###  Flowchart
+![Flowchart](flowchart12.drawio.svg)
+
 ---
 
 ## 14. Login System (Maximum 3 Attempts)
