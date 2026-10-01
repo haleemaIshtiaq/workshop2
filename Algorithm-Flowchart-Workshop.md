@@ -134,6 +134,20 @@ interest using the formula:
 - **R = Rate of Interest** → percentage per year
 - **T = Time** → number of years
 
+###  Pseudocode
+
+```text
+START
+    INPUT Principal
+    INPUT InterestRate
+    INPUT Time
+    set SimpleInterest=(Principal*InterestRate*Time )/100                                     
+    OUTPUT SimpleInterest
+END
+```   
+
+###  Flowchart
+![Flowchart](flowchart4.drawio.svg)
 ---
 
 ## 6. Average Temperature Calculation
