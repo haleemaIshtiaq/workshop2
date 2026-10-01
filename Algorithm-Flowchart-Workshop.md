@@ -221,6 +221,25 @@ END
 Write the algorithm and draw the flowchart that input a number and
 calculate its factorial using a loop.
 
+###  Pseudocode
+
+```text
+START
+    INPUT number
+    IF number < 0
+       OUTPUT Not defined
+    ELSE   
+       SET factorial = 1
+       FOR i FROM 1 to number
+          SET factorial = factorial*i
+       END FOR
+    OUTPUT factorial
+    END IF
+END
+```
+###  Flowchart
+![Flowchart](flowchart8.drawio.svg)
+
 ---
 
 ## 10. Calculate Discount on Purchase
