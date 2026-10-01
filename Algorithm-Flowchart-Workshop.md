@@ -248,6 +248,25 @@ Write the algorithm and draw the flowchart for a program that inputs the
 purchase amount and gives a **10% discount** if the amount is greater
 than 1000.
 
+###  Pseudocode
+
+```text
+START
+    INPUT Purchase
+    IF Purchase > 1000
+       SET discount = 0.10
+    ELSE   
+       SET discount = 0
+    END IF
+    SET discountAmount=Purchase*discount
+    SET total = Purchase - discountamount
+    OUTPUT total
+END
+```
+###  Flowchart
+![Flowchart](flowchart9.drawio.svg)
+
+
 ---
 
 
