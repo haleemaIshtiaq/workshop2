@@ -200,6 +200,20 @@ Write the algorithm and draw the flowchart for a program that takes a
 student's average marks and displays **"Pass"** if average ≥ 50,
 otherwise **"Fail"**.
 
+###  Pseudocode
+
+```text
+START
+    INPUT average
+    IF average > = 50  THEN
+        OUTPUT Pass
+    ELSE
+        OUTPUT Fail
+    ENDIF
+END
+```
+###  Flowchart
+![Flowchart](flowchart7.drawio.svg)
 ---
 
 ## 9. Calculate Factorial of a Number
