@@ -430,4 +430,23 @@ number of electricity units consumed and calculates the total bill using
 the following rates: first 100 units at 1.5 SEK per unit, next 200
 units at 2.0 SEK per unit, and all remaining units at 3.0 SEK per unit.
 
+###  Pseudocode
+
+```text
+START
+    INPUT unitsConsumed
+    IF  unitsConsumed < 0
+        OUTPUT Invalid input
+    ELSE    
+      IF  unitsConsumed <= 100
+        set totalBill = unitsConsumed * 1.5
+      ELSE IF unitsConsumed <= 300
+        set totalBill = (100 * 1.5) + (unitsConsumed - 100) * 2.0
+      Else
+        set totalBill = ( 100 * 1.5 ) + (200 * 2.0 ) + ((unitsConsumed - 300) * 3.0 )   
+      ENDIF
+    OUTPUT totalBill
+    ENDIF
+END
+```
 ---
